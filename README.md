@@ -1,0 +1,1 @@
+https://github.com/egoristy-nn/slozhno-sosredotochitsya.git
