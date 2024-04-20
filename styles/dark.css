@@ -9,7 +9,7 @@
   --title-color: #000028;
   --main-text-color: #f1b2ce;
   --header-color: #db00ff;
-  background-image: url(/images/cover-image-dark.png);
+  background-image: url(../images/cover-image-dark.png);
 }
 
 .theme_dark .rec {
