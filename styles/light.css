@@ -31,4 +31,12 @@
     --header-color: #ffc2e6;
   }
 
+  .page {
+    background-image: url(../images/cover-image-light.png);
+  }
+
+  .rec {
+    display: none;
+  }
+  
 }
