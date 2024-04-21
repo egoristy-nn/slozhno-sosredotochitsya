@@ -2,7 +2,7 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  font-family: 'IBM Plex mono', sans-serif;
+  font-family: "IBM Plex mono", sans-serif;
   background-image: url(../images/cover-image-dark.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,7 +22,7 @@
 
 .header_decorate {
   color: var(--headings_decor-color);
-  font-family: 'IBM Plex mono', sans-serif;
+  font-family: "IBM Plex mono", sans-serif;
   font-weight: 400;
   font-size: 18px;
   width: auto;
@@ -31,7 +31,7 @@
 }
 
 .header::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 10px;
   width: 25px;
@@ -43,7 +43,7 @@
 }
 
 .header::after {
-  content: '';
+  content: "";
   position: absolute;
   align-self: end;
   left: 10px;
@@ -55,7 +55,7 @@
 }
 
 .rec::before {
-  content: 'rec';
+  content: "rec";
   text-transform: uppercase;
   position: absolute;
   left: 10px;
@@ -63,7 +63,7 @@
 }
 
 .rec::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 8px;
   left: 52px;
@@ -95,7 +95,7 @@
   border: none;
   font: inherit;
   background-color: transparent;
-  font-family: 'IBM Plex mono', sans-serif;
+  font-family: "IBM Plex mono", sans-serif;
   text-transform: lowercase;
   font-weight: 400;
   color: var(--headings_decor-color);
@@ -124,11 +124,10 @@
 .header-text {
   display: grid;
   grid-template-rows: min-content;
-  
 }
 
 .header_title {
-  font-family: 'IBM Plex mono', sans-serif;
+  font-family: "IBM Plex mono", sans-serif;
   color: var(--header-color);
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
@@ -145,7 +144,7 @@
   width: auto;
   height: min-content;
   align-self: start;
-  font-family: 'IBM Plex mono', sans-serif;
+  font-family: "IBM Plex mono", sans-serif;
 }
 
 .title_decor {
@@ -255,7 +254,7 @@
 }
 
 .footer::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 10px;
   width: 25px;
@@ -267,7 +266,7 @@
 }
 
 .footer::after {
-  content: '';
+  content: "";
   position: absolute;
   align-self: end;
   left: 10px;
@@ -279,7 +278,7 @@
 }
 
 .footer_title {
-  font-family: 'IBM Plex mono', sans-serif;
+  font-family: "IBM Plex mono", sans-serif;
   color: var(--header-color);
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
@@ -303,7 +302,7 @@
     top: 20px;
     right: 20px;
   }
-  
+
   .header::after {
     left: 20px;
     bottom: 20px;
@@ -312,23 +311,23 @@
   .header_decorate {
     margin: 20px;
   }
-  
+
   .header_theme-switch {
     margin-top: 170px;
   }
-  
+
   .header_title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     margin: 0;
   }
-  
+
   .header_paragraph {
     justify-self: end;
     width: 364px;
     align-self: center;
     margin-bottom: 55px;
   }
-  
+
   .header_decorate-down {
     margin: 0 20px 20px 20px;
   }
@@ -338,7 +337,7 @@
     margin: 60px 20px 0 20px;
     gap: 32px;
   }
-  
+
   .block {
     display: grid;
     grid-template-columns: 32% auto;
@@ -359,7 +358,7 @@
   .block .block_paragraph_text {
     margin: 0;
   }
-  
+
   .block .block_paragraph_title {
     margin-bottom: 9px;
   }
@@ -436,7 +435,7 @@
     top: 20px;
     right: 20px;
   }
-  
+
   .footer::after {
     left: 20px;
     bottom: 20px;
@@ -444,7 +443,6 @@
 }
 
 @media (min-width: 1024px) {
-
   .header {
     min-height: 768px;
   }
@@ -462,7 +460,7 @@
   .rec::before {
     left: 550px;
   }
-  
+
   .rec::after {
     left: 590px;
   }
@@ -470,15 +468,15 @@
   .header_theme-switch {
     margin: 0;
   }
-  
+
   .header__theme-menu-list {
     grid-template-columns: repeat(3, 71px);
   }
-  
+
   .header_title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-  
+
   .header_paragraph {
     width: 490px;
     height: auto;
@@ -498,7 +496,7 @@
   .block-grid .block_paragraph {
     grid-template-rows: min-content auto;
   }
-  
+
   .colored_block {
     margin: 0;
     margin-bottom: 25px;
