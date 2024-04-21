@@ -38,5 +38,8 @@
   .rec {
     display: none;
   }
-  
+
+  .header__theme-menu-button:hover {
+    outline: 1px solid rgba(53, 52, 48, 0.4);
+  }  
 }
