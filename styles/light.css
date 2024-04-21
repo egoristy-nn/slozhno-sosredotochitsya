@@ -9,6 +9,7 @@
   --title-color: #353430;
   --main-text-color: #353430;
   --header-color: #ffc2e6;
+  --background-color: #fff1f7;
   background-image: url(../images/cover-image-light.png);
 }
 
@@ -27,9 +28,11 @@
     --title-color: #353430;
     --main-text-color: #353430;
     --header-color: #ffc2e6;
+    --background-color: #fff1f7;
   }
 
   .page {
+    background-color: var(--background-color);
     background-image: url(../images/cover-image-light.png);
   }
 
